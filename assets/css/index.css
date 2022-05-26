@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    color: black !important;
+}
+
+body::-webkit-scrollbar{
+    width: 0px;
+}
+.cont {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    height: 30% !important;
+    width: 50% !important;
+    margin: -15% 0 0 -25% !important;
+}
+.fa{
+    width: 55px !important;
+    height: 55px !important;
+}
+.fa i{
+    font-size: 2rem !important;
+    background-color:#103875 !important;
+    color: white !important;
+    border-radius: 100px !important;
+    padding-top: 10px;
+}
+.cont i:hover{
+    background-color:#ED3929 !important;
+}
+.contenido{
+
+    font-size: 12px !important;
+}
+a{
+    font-weight: bold !important;
+}
+.siglasEmpresa{
+    font-family: 'Lobster', cursive;
+}
+.siglasEmpresa, .mensajeBienvenida{
+    font-size: calc(1em + 1vw) !important;
+    line-height: 1em !important;
+}
+option:first-child{
+    display: none;
+}
+.icon{
+    font-size: 2rem !important;
+}
+.icon {
+    animation: rotation 8s infinite linear;
+}
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}

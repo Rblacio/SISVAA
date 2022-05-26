@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+html,body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 0px;
+}
+
+.card-header, .empresa{
+    font-family: 'Lobster', cursive;
+}
+.ingresar{
+   background-color: #003A7D;
+   color: #fff;
+}
+a{
+    text-decoration: none;
+}
